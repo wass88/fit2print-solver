@@ -17,6 +17,9 @@ build-backend = "hatchling.build"
 managed = true
 dev-dependencies = []
 
+[tool.rye.scripts]
+main = "python src/fit2print_solver/__init__.py"
+
 [tool.hatch.metadata]
 allow-direct-references = true
 

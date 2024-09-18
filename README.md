@@ -1,6 +1,25 @@
 # fit2print-solver
 
-Describe your project here.
+```
+$ rye run main
+#0/2 {'area': 98, 'piece_count': 11, 'piece_areas': 97, 'rest': 1, 'art_score': 10, 'amb_score': 0, 'pieces': {'R': 2, 'G': 3, 'B': 2, 'P': 1, 'A': 2, 'T': 1}} ['(= v_sphoto 4)']
+solved:  s SATISFIABLE
+board
+A A A B G G G
+A A A B G G G
+A A A B G G G
+A A A B P P P
+R R R R P P P
+G A A A P P P
+G A A A P P P
+G R R R R G G
+G R R R R G G
+. R R R R G G
+B B T T T T T
+B B T T T T T
+B B T T T T T
+B B T T T T T
+```
 
 ## 変数と制約
 
